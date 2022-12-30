@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  background-color: #343A3F;
+  color: white;
+  text-align: right;
+}
+
+#image-header {
+  background-image: url("../assets/images/1584.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.titlebold {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.titlebold2 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.email {
+  color: blue;
+  cursor: pointer;
+}
+
+.text1 {
+  font-size: 15px;
+}
+
+/*Filas para bajar*/
+.espacio1 {
+  height: 15px;
+}
+
+.espacio2 {
+  height: 80px;
+}
+
+.espacio3 {
+  height: 30px;
+}
+
+.menu-1 {
+  font-size: 14px;
+  border-top: 40px;
+  cursor: pointer;
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.space {
+  font-weight: 700;
+}
+
+.title  {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.title2  {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+.image-header {
+  display: block;
+}
+
+
+button {
+  background: #0F7DF6;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+  font-weight: 300;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  border: #0F7DF6;
+}
+
+footer {
+  outline: black solid 1px;
+  background-color: #343A3F;
+  color: white;
+  text-align: center;
+  height:60px;
+}
+
+#btn {
+  display: none;
+}
+
+/*.rowcontainer {
+  outline: black solid 1px;
+}*/
+
+@media screen and (max-width: 768px){
+
+  #card1 {
+    width: 100%;
+  }
+  #card2 {
+    width: 100%;
+  }
+  #card3 {
+    width: 100%;
+  }
+
+  #whatwedo {
+    width: 100%;
+  }
+
+  #contact {
+    width: 100%;
+  }
+
+  #btn {
+    display: block;
+  }
+
+  #btn2 {
+    background-color: #343A3F;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  #menu {
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row::after,
+.row::before {
+  content: " ";
+  display: table;
+}
+
+.row::after {
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+  margin: 8px;
+}
+
+.col-1 {
+  width: calc(8.333% - 20px);
+}
+
+.col-2 {
+  width: calc(16.666% - 20px);
+}
+
+.col-3 {
+  width: calc(25% - 20px);
+}
+
+.col-4 {
+  width: calc(33.333% - 20px);
+}
+
+.col-5 {
+  width: calc(41.666% - 20px);
+}
+
+.col-6 {
+  width: calc(50% - 20px);
+}
+
+.col-7 {
+  width: calc(58.33% - 20px);
+}
+
+.col-8 {
+  width: calc(66.66% - 20px);
+}
+
+.col-9 {
+  width: calc(75% - 20px);
+}
+
+.col-10 {
+  width: calc(83.33% - 20px);
+}
+
+.col-11 {
+  width: calc(91.66% - 20px);
+}
+
+.col-12 {
+  width: calc(100% - 20px);
+}
+.boton.contact {
+border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/
+}
+
+/* CSS DEL FORMULARIO */
+*{box-sizing:border-box;}
+
+form{
+  width:300px;
+  padding:16px;
+  border-radius:10px;
+  margin:auto;
+  background-color:#ccc;
+}
+
+form label{
+  width:72px;
+  font-weight:bold;
+  display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+  width:180px;
+  padding:3px 10px;
+  border:1px solid #f6f6f6;
+  border-radius:3px;
+  background-color:#f6f6f6;
+  margin:8px 0;
+  display:inline-block;
+}
+
+form input[type="submit"]{
+  width:100%;
+  padding:8px 16px;
+  margin-top:32px;
+  border:1px solid #000;
+  border-radius:5px;
+  display:block;
+  color:#fff;
+  background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+  cursor:pointer;
+}
+
+textarea{
+  width:100%;
+  height:100px;
+  border:1px solid #f6f6f6;
+  border-radius:3px;
+  background-color:#f6f6f6;   
+  margin:8px 0;
+  /*resize: vertical | horizontal | none | both*/ resize:none;
+  display:block;
+}
+
+.centrar-form{
+  margin: 50px auto;
+  float: none;
+}
+
+#image-center {
+  background-image: url("../assets - copia/pared.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+}

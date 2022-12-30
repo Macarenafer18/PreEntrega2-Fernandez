@@ -9,3 +9,4 @@
 2) Las herramientas usadas fueron HTML y CSS, y un grid system, que proporciona una experiencia uniforme en múltiples dispositivos con diferentes tamaños de pantalla, la grid usada ayudo a alinear los elementos de la página basados en columnas y filas secuenciadas. La grid consta de containers (contenedores), rows (filas), columns (columnas) y gutters.
 
 3) La implementación de este sistema de grid, nos proporciona una interfaz ordenada y limpia, que nos ayuda a posicionar de manera optima el sitio dentro de los motores de busqueda. 
+# PreEntrega2-Fernandez
